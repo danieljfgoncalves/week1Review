@@ -8,10 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        // A.1 - Q.1
+        NSLog(@"This is my second day @ Bitmaker Labs.");
+        // A.1 - Q.2
+        int i;
+        i = 1;
+        NSLog (@"Testing...");
+        NSLog (@"....%i", i);
+        NSLog (@"...%i", i + 1);
+        NSLog (@"..%i", i + 2); // testing... ....1 ...2 ..3
+        
+        
     }
     return 0;
 }
