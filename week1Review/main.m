@@ -118,8 +118,6 @@ int main(int argc, const char * argv[]) {
         // A.2 - Q.6
         loopInt(1);
         
-        
-        
     }
     return 0;
 }
